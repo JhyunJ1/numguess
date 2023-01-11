@@ -10,7 +10,6 @@ change = 0.0
 for _ in range(100000):
     shuffle(doors)
     c = choice(doors)
-    print(doors)
     if c == 1:
         nochange += 1
 
